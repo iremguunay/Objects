@@ -1,3 +1,5 @@
+import java.awt.*;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -25,6 +27,12 @@ public class Main {
 
         System.out.println(Tree.TRUNK_COLOR);
         Tree.announceTree();
+
+        Color myTrunkColor = Tree.TRUNK_COLOR;
+        Color myDefaultWhite = Color.WHITE;
+        Color myDefaultBlue = Color.BLUE;
+
+        Color brighterBLue = myDefaultBlue.brighter();
 
     }
 }
