@@ -23,5 +23,8 @@ public class Main {
                     myFavoriteMapleTree.treeType +" tree!");
         }*/
 
+        System.out.println(Tree.TRUNK_COLOR);
+        Tree.announceTree();
+
     }
 }
